@@ -65,10 +65,7 @@ const NewWomanPage = () => {
           <div className="">
             <h2 className="heading2 pt-0 pb-2">Synopsis</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-              incidunt quo magni itaque asperiores, fuga eos earum. Voluptatibus
-              provident cupiditate esse nisi aut quod, alias praesentium
-              necessitatibus unde velit sint.
+            A gothic romance concerning a male pickpocket and a wealthy woman descending into a labyrinth of terror in 1888.
             </p>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import React from "react"
-import vite from "/vite.svg"
+
+import logo from '../assets/logos/arkfilm_logo.jpg'
 
 const Footer1 = () => {
   return (
@@ -10,7 +11,7 @@ const Footer1 = () => {
             href="#"
             className="flex items-center mb-4 sm:mb-0">
             <img
-              src={vite}
+              src={logo}
               className="h-8 mr-3"
               alt="Logo"
             />
