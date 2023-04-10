@@ -1,6 +1,6 @@
-import { Footer } from "flowbite-react/lib/esm/components/Footer"
-import React from "react"
-import appleLogo from "../assets/logos/apple.svg"
+import { Footer } from 'flowbite-react/lib/esm/components/Footer'
+import React from 'react'
+import appleLogo from '../assets/logos/apple.svg'
 // import NWPoster from "../assets/NewWoman-Assets/newwoman.png"
 
 const Footer1 = () => {
@@ -10,12 +10,7 @@ const Footer1 = () => {
         <div className="w-full">
           <div className="grid w-full justify-between sm:flex sm:justify-around 7md:flex md:grid-cols-1">
             <div>
-              <Footer.Brand
-                href="https://flowbite.com"
-                src="https://flowbite.com/docs/images/logo.svg"
-                alt="Flowbite Logo"
-                name="ArkFilm"
-              />
+              <Footer.Brand href="https://flowbite.com" src="https://flowbite.com/docs/images/logo.svg" alt="Flowbite Logo" name="ArkFilm" />
             </div>
             <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
               <div>
@@ -43,21 +38,13 @@ const Footer1 = () => {
           </div>
           <Footer.Divider />
           <div className="w-full sm:flex sm:items-center sm:justify-between">
-            <Footer.Copyright
-              href="#"
-              by="Flowbite™"
-              year={2022}
-            />
+            <Footer.Copyright href="#" by="Flowbite™" year={2022} />
             <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
               {/* <Footer.Icon
                 href="#"
                 icon={NWPoster}
               /> */}
-              <img
-                className="w-5 inline-block"
-                src={appleLogo}
-                alt=""
-              />
+              <img className="w-5 inline-block" src={appleLogo} alt="" />
               {/* <Footer.Icon
                 href="#"
                 icon={BsInstagram}

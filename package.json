@@ -7,7 +7,7 @@
     "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview",
-    "lint"  : "rome check --apply-suggested ./src",
+    "lint"  : "rome check --apply ./src",
     "format": "rome format --write ./src"
   },
   "dependencies": {
