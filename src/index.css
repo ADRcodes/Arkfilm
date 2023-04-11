@@ -19,7 +19,7 @@
     @apply text-3xl py-4;
   }
   .heading2 {
-    @apply text-2xl py-4;
+    @apply text-2xl self-start mt-5 py-4;
   }
   .heading3 {
     @apply text-xl py-4;
