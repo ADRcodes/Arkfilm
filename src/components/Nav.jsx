@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react"
+import { Link } from "react-router-dom"
 
 const Nav = () => {
   return (
@@ -11,14 +11,20 @@ const Nav = () => {
         </div>
       </Link>
       <div className="flex gap-2 whitespace-nowrap text-white">
-        <Link to="/new-woman" className="w-1/3">
+        <Link
+          to="/new-woman"
+          className="">
           New Woman
         </Link>
-        <Link to="/sundays" className="w-1/3">
-          Sundays Poster
+        <Link
+          to="/sundays"
+          className="">
+          Sundays
         </Link>
-        <Link to="/the-hunt" className="w-1/3">
-          The Hunt Poster
+        <Link
+          to="/the-hunt"
+          className="">
+          The Hunt
         </Link>
       </div>
       <div>Burger</div>

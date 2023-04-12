@@ -1,12 +1,11 @@
-import React from 'react'
-import Footer1 from '../components/Footer1'
-import Hero from '../components/Hero'
-import Posters from '../components/Posters'
+import React from "react"
+import Posters from "../components/Posters"
+import Video from "../components/Video"
 
 const Home = () => {
   return (
     <div>
-      <Hero />
+      <Video link="https://player.vimeo.com/video/312278488?h=bc370b44e2" />
       <Posters />
     </div>
   )

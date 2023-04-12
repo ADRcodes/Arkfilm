@@ -17,8 +17,9 @@ const MovieDescription = ({
   return (
     <div>
       <div className="grid grid-cols-3">
+        <h1 className="heading1 self-start font-semibold">{title}</h1>
+        <h2 className="heading2 col-span-2 p-0 pb-2 self-end">Synopsis</h2>
         <div>
-          <h1 className="heading1 self-start font-semibold">{title}</h1>
           <p>
             Directed by <span className="font-semibold">{director}</span>{" "}
           </p>
@@ -43,7 +44,6 @@ const MovieDescription = ({
           <p className="font-light">{rating}</p>
         </div>
         <div className="col-span-2">
-          <h2 className="heading2 pt-0 pb-2">Synopsis</h2>
           <p>{synopsis}</p>
         </div>
       </div>
