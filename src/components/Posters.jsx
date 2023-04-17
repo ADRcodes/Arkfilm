@@ -1,21 +1,48 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react"
+import { Link } from "react-router-dom"
 
-import SundaysPoster from '../assets/Sundays-Assest/sundays-poster.png'
-import NWPoster from '../assets/NewWoman-Assets/newwoman.png'
-import theHuntPoster from '../assets/TheHunt-Assets/thehunt-poster.jpg'
+import SundaysPoster from "../assets/Sundays-Assest/sundays-poster.png"
+import NWPoster from "../assets/NewWoman-Assets/newwoman.png"
+import theHuntPoster from "../assets/TheHunt-Assets/thehunt-poster.jpg"
 
 const Posters = () => {
   return (
-    <div className="flex">
-      <Link to="/new-woman" className="w-1/3">
-        <img className="w-full h-full lg:p-5" src={NWPoster} alt="New Woman Poster" />
+    <div className="flex my-[80px]">
+      <Link
+        to="/sundays"
+        className="poster-container">
+        <img
+          className="poster border-2"
+          src={SundaysPoster}
+          alt="Sundays Poster"
+        />
+        <p className="text-center text-xl">
+          Sundays <span>(2019)</span>
+        </p>
       </Link>
-      <Link to="/sundays" className="w-1/3">
-        <img className="w-full lg:p-5" src={SundaysPoster} alt="Sundays Poster" />
+      <Link
+        to="/new-woman"
+        className="poster-container">
+        <img
+          className="poster border-2"
+          src={NWPoster}
+          alt="New Woman Poster"
+        />
+        <p className="text-center text-xl">
+          New Woman <span>(2015)</span>
+        </p>
       </Link>
-      <Link to="/the-hunt" className="w-1/3">
-        <img className="w-full lg:p-5" src={theHuntPoster} alt="The Hunt Poster" />
+      <Link
+        to="/the-hunt"
+        className="poster-container">
+        <img
+          className="poster border-2"
+          src={theHuntPoster}
+          alt="The Hunt Poster"
+        />
+        <p className="text-center text-xl">
+          The Hunt <span>(2024)</span>
+        </p>
       </Link>
     </div>
   )

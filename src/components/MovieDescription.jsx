@@ -17,7 +17,7 @@ const MovieDescription = ({
   return (
     <div>
       <div className="grid grid-cols-3">
-        <h1 className="heading1 self-start font-semibold">{title}</h1>
+        <h1 className="heading1 self-start font-semibold underline">{title}</h1>
         <h2 className="heading2 col-span-2 p-0 pb-2 self-end">Synopsis</h2>
         <div>
           <p>
@@ -27,7 +27,7 @@ const MovieDescription = ({
           <p className="font-light">{genres}</p>
           <div className="flex">
             <p className="font-light flex items-center gap-1 my-1">
-              <span className="bg-gray-400 px-1 font-bold text-sm mr-1">
+              <span className="bg-gray-500 px-1 font-bold text-sm mr-1">
                 {resolution}
               </span>
               <span className="flex  gap-1 items-center mr-1">

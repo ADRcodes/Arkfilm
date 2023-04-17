@@ -77,7 +77,7 @@ const NewWomanPage = () => {
             nominee="Troy Maher"
             year="2020"
           />
-          <AwardCard
+          {/* <AwardCard
             image={<GiLaurels />}
             org="Chatham-Kent Film Festival"
             type="Winner"
@@ -124,7 +124,7 @@ const NewWomanPage = () => {
             award=""
             nominee=""
             year=""
-          />
+          /> */}
         </div>
         {/* ----- Cast & Crew ----- */}
         <h2 className="heading2">Cast & Crew</h2>

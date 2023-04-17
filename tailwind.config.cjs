@@ -12,14 +12,14 @@ module.exports = {
       /////
       /////
       colors: {
-        primary: "#A32025",
+        primary: "#212121",
         primary_dark: "#0A5D60",
         secondary: "#253939",
         secondary_dark: "#CAE6E6",
         neutral: "#FFE046",
-        text: "#1F4F4F",
+        text: "#F4F4F4",
         text_dark: "#32FFFF",
-        bg: "#F1FFFF",
+        bg: "#212121",
         bg_dark: "#101414",
         border: "",
         /////
