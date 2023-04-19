@@ -12,6 +12,7 @@ import CastCard from "../components/CastCard"
 import AwardCard from "../components/AwardCard"
 import MovieDescription from "../components/MovieDescription"
 import Video from "../components/Video"
+import MovieAwardCards from "../components/AwardSection"
 
 const NewWomanPage = () => {
   return (
@@ -43,89 +44,7 @@ const NewWomanPage = () => {
               descending into a labyrinth of terror in 1888."
         />
         {/* ----- Awards ----- */}
-        <h2 className="heading2">Awards</h2>
-        <div className="flex gap-6 self-start flex-wrap">
-          <AwardCard
-            image={<GiLaurels />}
-            org="Australasia's Film Festival of Time"
-            type="Winner"
-            award="Best Short"
-            nominee="Benjamin Noah"
-            year="2020"
-          />
-          <AwardCard
-            // image={<GiLaurels />}
-            org="Australasia's Film Festival of Time"
-            type="Winner"
-            award="Best Director"
-            nominee="Benjamin Noah"
-            year="2020"
-          />
-          <AwardCard
-            image={<GiLaurels />}
-            org="Chatham-Kent Film Festival"
-            type="Winner"
-            award="Best Actress"
-            nominee="Rhiannon Morgan"
-            year=""
-          />
-          <AwardCard
-            image={<GiLaurels />}
-            org="Chatham-Kent Film Festival"
-            type="Winner"
-            award="Best Cinematography"
-            nominee="Troy Maher"
-            year="2020"
-          />
-          {/* <AwardCard
-            image={<GiLaurels />}
-            org="Chatham-Kent Film Festival"
-            type="Winner"
-            award="Best Short Film"
-            nominee="Benjamin Noah"
-            year="2020"
-          />
-          <AwardCard
-            image={<GiLaurels />}
-            org="Chatham-Kent Film Festival"
-            type="Nominee"
-            award="Best Director"
-            nominee="Benjamin Noah"
-            year="2020"
-          />
-          <AwardCard
-            image={<GiLaurels />}
-            org="Chatham-Kent Film Festival"
-            type="Nominee"
-            award="Best Costume Design"
-            nominee="Deborah Clarke"
-            year="2020"
-          />
-          <AwardCard
-            image={<GiLaurels />}
-            org="DROP: Russian International Horror Film Festival and Awards"
-            type="Winner"
-            award="Best Short Film"
-            nominee="Benjamin Noah"
-            year="2020"
-          />
-          <AwardCard
-            image={<GiLaurels />}
-            org=""
-            type=""
-            award=""
-            nominee=""
-            year=""
-          />
-          <AwardCard
-            image={<GiLaurels />}
-            org=""
-            type=""
-            award=""
-            nominee=""
-            year=""
-          /> */}
-        </div>
+        <MovieAwardCards />
         {/* ----- Cast & Crew ----- */}
         <h2 className="heading2">Cast & Crew</h2>
         <div className="grid lg:grid-cols-5 md:grid-cols-4 grid-cols-3 gap-4 py-4 self-start">

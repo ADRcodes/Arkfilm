@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import Hamburger from "./Hamburger"
 
 const Nav = () => {
   return (
@@ -27,7 +28,7 @@ const Nav = () => {
           The Hunt
         </Link>
       </div>
-      <div>Burger</div>
+      <Hamburger />
     </div>
   )
 }
