@@ -1,6 +1,9 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import Hamburger from "./Hamburger"
+import Facebook from "../assets/SVGs/Facebook"
+import Instagram from "../assets/SVGs/Instagram"
+import Twitter from "../assets/SVGs/Twitter"
 
 const Nav = () => {
   return (
@@ -11,22 +14,10 @@ const Nav = () => {
           <h2 className="bg-primary text-white">Ark Film</h2>
         </div>
       </Link>
-      <div className="flex gap-2 whitespace-nowrap text-white">
-        <Link
-          to="/new-woman"
-          className="">
-          New Woman
-        </Link>
-        <Link
-          to="/sundays"
-          className="">
-          Sundays
-        </Link>
-        <Link
-          to="/the-hunt"
-          className="">
-          The Hunt
-        </Link>
+      <div className="flex gap-2 whitespace-nowrap text-white items-center">
+        <Facebook link="https://www.facebook.com/theark1979" />
+        <Instagram link="https://www.instagram.com/arkfilm2049/" />
+        <Twitter link="https://twitter.com/theark_1979" />
       </div>
       <Hamburger />
     </div>

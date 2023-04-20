@@ -1,16 +1,14 @@
 import React from "react"
-import { BsFillPlayCircleFill } from "react-icons/bs"
-import { GiLaurels } from "react-icons/gi"
 
 import Still1 from "../assets/NewWoman-Assets/nw-still1.png"
 import Still2 from "../assets/NewWoman-Assets/nw-still2.png"
 import Still3 from "../assets/NewWoman-Assets/nw-still3.png"
+import sundaysData from "../assets/movie-data/sundaysData.json"
 
 import CastCard from "../components/CastCard"
-import AwardCard from "../components/AwardCard"
 import MovieDescription from "../components/MovieDescription"
 import Video from "../components/Video"
-import MovieAwardCards from "../components/AwardSection"
+import AwardSection from "../components/AwardSection"
 
 const SundaysPage = () => {
   return (
@@ -32,90 +30,7 @@ const SundaysPage = () => {
           synopsis="Sundays a short film disguised as a music video about one man's quest for knowledge and the extreme lengths he will go to find it."
         />
         {/* ----- Awards ----- */}
-        <MovieAwardCards />
-        {/* <div className="flex gap-6 self-start flex-wrap">
-          <AwardCard
-            image={<GiLaurels />}
-            org="Broken Knuckle Film Festival"
-            type="Winner"
-            award="Best Music Video"
-            nominee="Benjamin Noah"
-            year="2015"
-          />
-          <AwardCard
-            image={<GiLaurels />}
-            org="Canada International Film Festival"
-            type="Winner"
-            award="Music Video"
-            nominee="Benjamin Noah"
-            year="2016"
-          />
-          <AwardCard
-            image={<GiLaurels />}
-            org="Canada Shorts Film Festival"
-            type="Winner"
-            award="Best Short"
-            nominee="Benjamin Noah"
-            year="2016"
-          />
-          <AwardCard
-            image={<GiLaurels />}
-            org="IndieWise Film Festival"
-            type="Winner"
-            award="Best Director"
-            nominee="Benjamin Noah"
-            year="2016"
-          />
-          <AwardCard
-            image={<GiLaurels />}
-            org="
-International Open Film Festival (IOFF)"
-            type="Nominee"
-            award="Best International Short Film"
-            nominee="Benjamin Noah"
-            year="2016"
-          />
-          <AwardCard
-            image={<GiLaurels />}
-            org="Leeds International Film Festival"
-            type="Nominee"
-            award="Best International Music Video"
-            nominee="Benjamin Noah"
-            year="2016"
-          />
-          <AwardCard
-            image={<GiLaurels />}
-            org="Near Nazareth Film Festival"
-            type="Winner"
-            award="Best Music Video"
-            nominee="Benjamin Noah"
-            year="2016"
-          />
-          <AwardCard
-            image={<GiLaurels />}
-            org="Snowtown Film Festival"
-            type="Nominee"
-            award="Outstanding Foreign Short Film"
-            nominee="Benjamin Noah"
-            year="2017"
-          />
-          <AwardCard
-            image={<GiLaurels />}
-            org="Top Shorts Film Festival"
-            type="Winner"
-            award="Best Music Video"
-            nominee="Benjamin Noah"
-            year="2017"
-          />
-          <AwardCard
-            image={<GiLaurels />}
-            org="Top Shorts Film Festival"
-            type="Winner"
-            award="Music Video"
-            nominee="Benjamin Noah"
-            year="2017"
-          />
-        </div> */}
+        <AwardSection movieData={sundaysData} />
         {/* ----- Cast & Crew ----- */}
         <h2 className="heading2">Cast & Crew</h2>
         <div className="grid lg:grid-cols-5 md:grid-cols-4 grid-cols-3 gap-4 py-4 self-start">

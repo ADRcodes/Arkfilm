@@ -50,4 +50,8 @@
   .burger-list-item {
     @apply my-[1px] py-1 pl-3 pr-2 rounded-l-full bg-slate-700 hover:scale-[1.07] transition-all hover:bg-slate-300 hover:text-slate-800;
   }
+
+  .socials {
+    @apply w-4 h-4;
+  }
 }

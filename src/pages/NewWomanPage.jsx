@@ -1,18 +1,17 @@
 import React from "react"
 import { BsFillPlayCircleFill } from "react-icons/bs"
-import { GiLaurels } from "react-icons/gi"
 
 import Still1 from "../assets/NewWoman-Assets/nw-still1.png"
 import Still2 from "../assets/NewWoman-Assets/nw-still2.png"
 import Still3 from "../assets/NewWoman-Assets/nw-still3.png"
 import Rhiannon from "../assets/NewWoman-Assets/RhiannonMorgan.jpg"
 import Stephen from "../assets/NewWoman-Assets/StephenOates.jpg"
+import newWomanData from "../assets/movie-data/newWomanData.json"
 
 import CastCard from "../components/CastCard"
-import AwardCard from "../components/AwardCard"
 import MovieDescription from "../components/MovieDescription"
 import Video from "../components/Video"
-import MovieAwardCards from "../components/AwardSection"
+import AwardSection from "../components/AwardSection"
 
 const NewWomanPage = () => {
   return (
@@ -44,7 +43,7 @@ const NewWomanPage = () => {
               descending into a labyrinth of terror in 1888."
         />
         {/* ----- Awards ----- */}
-        <MovieAwardCards />
+        <AwardSection movieData={newWomanData} />
         {/* ----- Cast & Crew ----- */}
         <h2 className="heading2">Cast & Crew</h2>
         <div className="grid lg:grid-cols-5 md:grid-cols-4 grid-cols-3 gap-4 py-4 self-start">

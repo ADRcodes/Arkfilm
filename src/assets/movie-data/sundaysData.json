@@ -1,0 +1,69 @@
+{
+  "title": "Sundays",
+  "description": "Sundays a short film disguised as a music video about one man's quest for knowledge and the extreme lengths he will go to find it.",
+  "awards": [
+    {
+      "org": "Broken Knuckle Film Festival",
+      "type": "Winner",
+      "award": "Best Music Video",
+      "nominee": "Benjamin Noah",
+      "year": "2015"
+    },
+    {
+      "org": "Canada International Film Festival",
+      "type": "Winner",
+      "award": "Music Video",
+      "nominee": "Benjamin Noah",
+      "year": "2016"
+    },
+    {
+      "org": "Canada Shorts Film Festival",
+      "type": "Winner",
+      "award": "Best Short",
+      "nominee": "Benjamin Noah",
+      "year": "2016"
+    },
+    {
+      "org": "IndieWise Film Festival",
+      "type": "Winner",
+      "award": "Best Director",
+      "nominee": "Benjamin Noah",
+      "year": "2016"
+    },
+    {
+      "org": "International Open Film Festival (IOFF)",
+      "type": "Nominee",
+      "award": "Best International Short Film",
+      "nominee": "Benjamin Noah",
+      "year": "2016"
+    },
+    {
+      "org": "Leeds International Film Festival",
+      "type": "Nominee",
+      "award": "Best International Music Video",
+      "nominee": "Benjamin Noah",
+      "year": "2016"
+    },
+    {
+      "org": "Near Nazareth Film Festival",
+      "type": "Winner",
+      "award": "Best Music Video",
+      "nominee": "Benjamin Noah",
+      "year": "2016"
+    },
+    {
+      "org": "Snowtown Film Festival",
+      "type": "Nominee",
+      "award": "Outstanding Foreign Short Film",
+      "nominee": "Benjamin Noah",
+      "year": "2017"
+    },
+    {
+      "org": "Top Shorts Film Festival",
+      "type": "Winner",
+      "award": "Music Video",
+      "nominee": "Benjamin Noah",
+      "year": "2017"
+    }
+  ]
+}

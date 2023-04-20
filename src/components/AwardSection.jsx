@@ -1,9 +1,8 @@
 import React, { useState } from "react"
-import movieData from "../assets/movie-data/NewWomanData"
 import AwardCard from "./AwardCard"
 import { GiLaurels } from "react-icons/gi"
 
-function MovieAwardCards() {
+function AwardSection({ movieData }) {
   const [showAll, setShowAll] = useState(false)
 
   const awardsToDisplay = showAll
@@ -44,4 +43,4 @@ function MovieAwardCards() {
   )
 }
 
-export default MovieAwardCards
+export default AwardSection
