@@ -28,14 +28,14 @@ function AwardSection({ movieData }) {
           <button
             className="absolute -top-10 right-0 text-white py-2 px-4 rounded-lg hover:underline"
             onClick={() => setShowAll(true)}>
-            Show All
+            Show All Laurels
           </button>
         )}
         {showAll && (
           <button
             className="absolute -top-10 right-0 text-white py-2 px-4 rounded-lg hover:underline"
             onClick={() => setShowAll(false)}>
-            Show Less
+            Show Less Laurels
           </button>
         )}
       </div>
