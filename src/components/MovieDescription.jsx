@@ -13,6 +13,7 @@ const MovieDescription = ({
   subtitles,
   rating,
   synopsis,
+  font,
 }) => {
   return (
     <div>
@@ -47,7 +48,8 @@ const MovieDescription = ({
         <h2 className="heading2 p-0 pb-2 self-end md:order-2 order-3 md:col-span-2 col-span-3">
           Synopsis
         </h2>
-        <div className="md:col-span-2 col-span-3 md:order-4 order-3">
+        <div
+          className={`md:col-span-2 col-span-3 md:order-4 order-3 ${font} nw-text`}>
           <p>{synopsis}</p>
         </div>
       </div>

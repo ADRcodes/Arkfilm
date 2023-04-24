@@ -14,6 +14,7 @@ import Video from "../components/Video"
 import AwardSection from "../components/AwardSection"
 
 const NewWomanPage = () => {
+  const font = "nw-text"
   return (
     <div className="flex flex-col">
       {/* ----- Hero Section ----- */}
@@ -41,6 +42,7 @@ const NewWomanPage = () => {
           rating="14+"
           synopsis="A gothic romance concerning a male pickpocket and a wealthy woman
               descending into a labyrinth of terror in 1888."
+          font={font}
         />
         {/* ----- Awards ----- */}
         <AwardSection movieData={newWomanData} />

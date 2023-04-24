@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: SonOfTime;
+  src: url(src/assets/fonts/SonOfTmU.ttf);
+}
+@font-face {
+  font-family: Amatic;
+  src: url(src/assets/fonts/AmaticSC-Regular.ttf) format("truetype");
+}
+
 @layer base {
   /* h1 {
     @apply text-3xl py-3;
@@ -50,8 +59,12 @@
   .burger-list-item {
     @apply my-[1px] py-1 pl-3 pr-2 rounded-l-full bg-slate-700 hover:scale-[1.07] transition-all hover:bg-slate-300 hover:text-slate-800;
   }
-
   .socials {
     @apply w-4 h-4;
+  }
+  .nw-text {
+    font-family: SonOfTime;
+    font-size: 2rem;
+    font-weight: 400;
   }
 }
