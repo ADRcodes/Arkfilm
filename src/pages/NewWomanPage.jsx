@@ -1,11 +1,15 @@
 import React from "react"
 import { BsFillPlayCircleFill } from "react-icons/bs"
 
-import Still1 from "../assets/NewWoman-Assets/nw-still1.png"
-import Still2 from "../assets/NewWoman-Assets/nw-still2.png"
-import Still3 from "../assets/NewWoman-Assets/nw-still3.png"
+import Still1 from "../assets/NewWoman-Assets/New Woman Film Still 1.png"
+import Still2 from "../assets/NewWoman-Assets/New Woman Film Still 2.png"
+import Still3 from "../assets/NewWoman-Assets/New Woman Film Still 3.png"
+import Still4 from "../assets/NewWoman-Assets/New Woman Film Still 4.png"
+import Still5 from "../assets/NewWoman-Assets/New Woman Film Still 7.png"
 import Rhiannon from "../assets/NewWoman-Assets/RhiannonMorgan.jpg"
 import Stephen from "../assets/NewWoman-Assets/StephenOates.jpg"
+import Ben from "../assets/Arkfilm-Assets/Directors photo.jpg"
+import NewWomanSquare from "../assets/NewWoman-Assets/new-woman-square-cover3_web.jpg"
 import newWomanData from "../assets/movie-data/newWomanData.json"
 
 import CastCard from "../components/CastCard"
@@ -21,7 +25,7 @@ const NewWomanPage = () => {
       <div className="relative">
         <img
           className="w-full xl:w-3/5 mx-auto brightness-90"
-          src={Still3}
+          src={NewWomanSquare}
           alt=""
         />
         <p className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[100px] text-white">
@@ -50,7 +54,7 @@ const NewWomanPage = () => {
         <h2 className="heading2">Cast & Crew</h2>
         <div className="grid lg:grid-cols-5 md:grid-cols-4 grid-cols-3 gap-4 py-4 self-start">
           <CastCard
-            image={Still1}
+            image={Ben}
             name="Benjamin Noah"
             role="Director, Producer"
           />
@@ -79,38 +83,28 @@ const NewWomanPage = () => {
         <h2 className="heading2">Stills</h2>
         <div className="flex flex-wrap gap-2">
           <img
-            className="object-cover w-[200px]"
+            className="object-cover w-[40%]"
             src={Still1}
             alt=""
           />
           <img
-            className="object-cover w-[400px]"
+            className="object-cover w-[58%]"
             src={Still2}
             alt=""
           />
           <img
-            className="object-cover w-[200px]"
-            src={Still1}
-            alt=""
-          />
-          <img
-            className="object-cover w-[400px]"
+            className="object-cover w-[49%]"
             src={Still3}
             alt=""
           />
           <img
-            className="object-cover w-[400px]"
-            src={Still2}
+            className="object-cover w-[49%]"
+            src={Still4}
             alt=""
           />
           <img
             className="object-cover w-[400px]"
-            src={Still3}
-            alt=""
-          />
-          <img
-            className="object-cover w-[200px]"
-            src={Still1}
+            src={Still5}
             alt=""
           />
         </div>
