@@ -7,7 +7,7 @@ import theHuntPoster from "../assets/TheHunt-Assets/thehunt-poster.jpg"
 
 const Posters = () => {
   return (
-    <div className="flex my-[80px]">
+    <div className="flex mt-[200px]">
       <Link
         to="/sundays"
         className="poster-container">
