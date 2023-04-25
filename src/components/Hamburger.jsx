@@ -21,14 +21,15 @@ const Hamburger = () => {
   }
 
   const menuStyle = {
-    transition: "transform 0.2s ease-out",
+    transition: "transform 10s ease-out",
     transform: isCollapsed ? "translateX(100%)" : "translateX(0%)",
+    display: isCollapsed ? "none" : "",
   }
 
   return (
     <div className="flex justify-center items-center relative">
       <button
-        className={`relative flex flex-col justify-between items-center w-8 h-6 bg-transparent border-none cursor-pointer transition-transform duration-250 transform ${
+        className={`relative flex flex-col justify-between items-center w-7 h-5 bg-transparent border-none cursor-pointer transition-transform duration-250 transform ${
           isCollapsed ? "" : "open"
         }`}
         onClick={(event) => {
@@ -36,24 +37,24 @@ const Hamburger = () => {
           toggleCollapse()
         }}>
         <span
-          className={`w-full h-1 bg-gray-500 transition-transform duration-250 transform ${
-            isCollapsed ? "" : "rotate-45 translate-y-2.5"
+          className={`w-full h-[3px] bg-gray-500 transition-transform duration-250 transform ${
+            isCollapsed ? "" : "rotate-45 translate-y-[8.5px]"
           }`}></span>
         <span
-          className={`w-full h-1 bg-gray-500 transition-transform duration-250 transform ${
-            isCollapsed ? "" : "opacity-0"
+          className={`w-full h-[3px] bg-gray-500 transition-transform duration-250 transform ${
+            isCollapsed ? "" : "opacity-0 "
           }`}></span>
         <span
-          className={`w-full h-1 bg-gray-500 transition-transform duration-250 transform ${
-            isCollapsed ? "" : "-rotate-45 -translate-y-2.5"
+          className={`w-full h-[3px] bg-gray-500 transition-transform duration-250 transform ${
+            isCollapsed ? "" : "-rotate-45 -translate-y-[8.5px]"
           }`}></span>
       </button>
 
       <div
-        className="absolute top-8 -right-4 z-40"
+        className="absolute top-[118%] -right-4 z-40 "
         style={menuStyle}
         ref={menuRef}>
-        <ul className="flex flex-col items-end rounded-lg shadow-lg w-max">
+        <ul className="flex flex-col items-end w-max bg-[#212121] opacity-90 ">
           <li className="burger-list-item">
             <a href="/sundays">Sundays</a>
           </li>

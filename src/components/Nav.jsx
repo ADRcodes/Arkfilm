@@ -4,6 +4,8 @@ import Hamburger from "./Hamburger"
 import Facebook from "../assets/SVGs/Facebook"
 import Instagram from "../assets/SVGs/Instagram"
 import Twitter from "../assets/SVGs/Twitter"
+import { Dropdown } from "flowbite-react"
+import Hamburger2 from "./Hamburger2"
 
 const Nav = () => {
   return (
@@ -39,6 +41,7 @@ const Nav = () => {
       </div>
       <div className="flex justify-end">
         <Hamburger />
+        {/* <Hamburger2 /> */}
       </div>
     </div>
   )
