@@ -1,6 +1,5 @@
 import React, { useState } from "react"
 import AwardCard from "./AwardCard"
-import { GiLaurels } from "react-icons/gi"
 
 function AwardSection({ movieData }) {
   const [showAll, setShowAll] = useState(false)
