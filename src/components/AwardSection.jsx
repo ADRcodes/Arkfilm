@@ -7,7 +7,7 @@ function AwardSection({ movieData }) {
 
   const awardsToDisplay = showAll
     ? movieData.awards
-    : movieData.awards.slice(0, 4)
+    : movieData.awards.slice(0, 6)
 
   return (
     <div className="w-full">
@@ -15,7 +15,7 @@ function AwardSection({ movieData }) {
       <div className="relative flex gap-6 self-start flex-wrap">
         {awardsToDisplay.map((award, index) => (
           <AwardCard
-            image={<GiLaurels />}
+            image={award.img}
             key={index}
             org={award.org}
             type={award.type}

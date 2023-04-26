@@ -3,60 +3,236 @@
   "description": "New Woman is a drama film directed by Benjamin Noah. The film follows the journey of a young woman named Mary, who, after the sudden death of her mother, embarks on a journey to retrace her mother's footsteps and discover the truth about her past.",
   "awards": [
     {
-      "org": "Australasia's Film Festival of Time",
-      "type": "Winner",
-      "award": "Best Short",
-      "nominee": "Benjamin Noah",
-      "year": "2020"
-    },
-    {
-      "org": "Australasia's Film Festival of Time",
-      "type": "Winner",
-      "award": "Best Director",
-      "nominee": "Benjamin Noah",
-      "year": "2020"
-    },
-    {
       "org": "Chatham-Kent Film Festival",
       "type": "Winner",
       "award": "Best Actress",
       "nominee": "Rhiannon Morgan",
-      "year": "2020"
+      "year": "2020",
+      "img": "src/assets/NewWoman-Assets/Laurels/Chatham-Kent International Film Festival.png"
     },
     {
       "org": "Chatham-Kent Film Festival",
       "type": "Winner",
       "award": "Best Cinematography",
       "nominee": "Troy Maher",
-      "year": "2020"
+      "year": "2020",
+      "img": "src/assets/NewWoman-Assets/Laurels/Chatham-Kent International Film Festival.png"
     },
     {
       "org": "Chatham-Kent Film Festival",
       "type": "Winner",
       "award": "Best Short Film",
       "nominee": "Benjamin Noah",
-      "year": "2020"
+      "year": "2020",
+      "img": "src/assets/NewWoman-Assets/Laurels/Chatham-Kent International Film Festival.png"
     },
     {
       "org": "Chatham-Kent Film Festival",
       "type": "Nominee",
       "award": "Best Director",
       "nominee": "Benjamin Noah",
-      "year": "2020"
+      "year": "2020",
+      "img": "src/assets/NewWoman-Assets/Laurels/Chatham-Kent International Film Festival.png"
     },
     {
       "org": "Chatham-Kent Film Festival",
       "type": "Nominee",
       "award": "Best Costume Design",
       "nominee": "Deborah Clarke",
-      "year": "2020"
+      "year": "2020",
+      "img": "src/assets/NewWoman-Assets/Laurels/Chatham-Kent International Film Festival.png"
+    },
+    {
+      "org": "Top Shorts Film Festival",
+      "type": "Winner",
+      "award": "Best Director",
+      "nominee": "Benjamin Noah",
+      "year": "2019",
+      "img": "src/assets/NewWoman-Assets/Laurels/Top Shorts Winner 2019 vector white.png"
+    },
+    {
+      "org": "Lebanese Independent Film Festival",
+      "type": "Nominee",
+      "award": "Best International Short Film",
+      "nominee": "Benjamin Noah",
+      "year": "2019",
+      "img": "src/assets/NewWoman-Assets/Laurels/Best Foreign short Fiction .png"
+    },
+    {
+      "org": "HorrorOrigins Film Festival",
+      "type": "Winner",
+      "award": "Best Composer",
+      "nominee": "Adam Foran",
+      "year": "2019",
+      "img": "src/assets/NewWoman-Assets/Laurels/horrorigins-official-selection-white-2019.png"
+    },
+    {
+      "org": "HorrorOrigins Film Festival",
+      "type": "Nominee",
+      "award": "Best Actress",
+      "nominee": "Rhiannon Morgan",
+      "year": "2019",
+      "img": "src/assets/NewWoman-Assets/Laurels/horrorigins-official-selection-white-2019.png"
+    },
+    {
+      "org": "HorrorOrigins Film Festival",
+      "type": "Nominee",
+      "award": "Best Short Film",
+      "nominee": "Benjamin Noah",
+      "year": "2019",
+      "img": "src/assets/NewWoman-Assets/Laurels/horrorigins-official-selection-white-2019.png"
+    },
+    {
+      "org": "HorrorOrigins Film Festival",
+      "type": "Nominee",
+      "award": "Best Cinematographer",
+      "nominee": "Troy Maher ",
+      "year": "2019",
+      "img": "src/assets/NewWoman-Assets/Laurels/horrorigins-official-selection-white-2019.png"
+    },
+    {
+      "org": "Australasia's Film Festival of Time",
+      "type": "Winner",
+      "award": "Best Short",
+      "nominee": "Benjamin Noah",
+      "year": "2020",
+      "img": "src/assets/NewWoman-Assets/Laurels/Australasia-best-short.png"
+    },
+    {
+      "org": "Australasia's Film Festival of Time",
+      "type": "Winner",
+      "award": "Best Director",
+      "nominee": "Benjamin Noah",
+      "year": "2020",
+      "img": "src/assets/NewWoman-Assets/Laurels/Australasia-best-director.png"
+    },
+    {
+      "org": "James Bond III Film Festival",
+      "type": "",
+      "award": "",
+      "nominee": "Benjamin Noah",
+      "year": "2019",
+      "img": "src/assets/NewWoman-Assets/Laurels/OFFICIALSELECTION-JamesBondIIIFilmFestivalHorrorEdition-2019.png"
+    },
+    {
+      "org": "Jelly Film Festival",
+      "type": "Nominee",
+      "award": "Best Picture",
+      "nominee": "Benjamin Noah",
+      "year": "2020",
+      "img": "src/assets/NewWoman-Assets/Laurels/jellyFEST - 2020.png"
+    },
+    {
+      "org": "Jelly Film Festival",
+      "type": "Nominee",
+      "award": "Best Production Design",
+      "nominee": "Hilary Thomson",
+      "year": "2020",
+      "img": "src/assets/NewWoman-Assets/Laurels/jellyFEST - 2020.png"
     },
     {
       "org": "DROP: Russian International Horror Film Festival and Awards",
       "type": "Winner",
       "award": "Best Short Film",
       "nominee": "Benjamin Noah",
-      "year": "2020"
+      "year": "2020",
+      "img": "src/assets/NewWoman-Assets/Laurels/DROP.PNG"
+    },
+    {
+      "org": "Romford Film Festival",
+      "type": "Nominee",
+      "award": "Best Cinematography",
+      "nominee": "Troy Maher",
+      "year": "2021",
+      "img": "src/assets/NewWoman-Assets/Laurels/Romford.png"
+    },
+    {
+      "org": "Romford Film Festival",
+      "type": "Nominee",
+      "award": "Best Director",
+      "nominee": "Benjamin Noah",
+      "year": "2021",
+      "img": "src/assets/NewWoman-Assets/Laurels/Romford.png"
+    },
+    {
+      "org": "Romford Film Festival",
+      "type": "Nominee",
+      "award": "Best Short Film",
+      "nominee": "Benjamin Noah",
+      "year": "2021",
+      "img": "src/assets/NewWoman-Assets/Laurels/Romford.png"
+    },
+    {
+      "org": "Romford Film Festival",
+      "type": "Winner",
+      "award": "Best Actress",
+      "nominee": "Rhiannon Morgan",
+      "year": "2020",
+      "img": "src/assets/NewWoman-Assets/Laurels/Romford.png"
+    },
+    {
+      "org": "Romford Film Festival",
+      "type": "Nominee",
+      "award": "Best Cinematography",
+      "nominee": "Troy Maher",
+      "year": "2020",
+      "img": "src/assets/NewWoman-Assets/Laurels/Romford.png"
+    },
+    {
+      "org": "Romford Film Festival",
+      "type": "Nominee",
+      "award": "Best Director",
+      "nominee": "Benjamin Noah",
+      "year": "2020",
+      "img": "src/assets/NewWoman-Assets/Laurels/Romford.png"
+    },
+    {
+      "org": "Romford Film Festival",
+      "type": "Nominee",
+      "award": "Best Score",
+      "nominee": "Adam Foran",
+      "year": "2020",
+      "img": "src/assets/NewWoman-Assets/Laurels/Romford.png"
+    },
+    {
+      "org": "Romford Film Festival",
+      "type": "Nominee",
+      "award": "Best Short Film",
+      "nominee": "Benjamin Noah",
+      "year": "2020",
+      "img": "src/assets/NewWoman-Assets/Laurels/Romford.png"
+    },
+    {
+      "org": "Toronto's Film Festival of Time",
+      "type": "Winner",
+      "award": "Best Director",
+      "nominee": "Benjamin Noah",
+      "year": "2020",
+      "img": "src/assets/NewWoman-Assets/Laurels/TFFT_Laurel_OS_4.png"
+    },
+    {
+      "org": "Toronto's Film Festival of Time",
+      "type": "Winner",
+      "award": "Best Period Piece",
+      "nominee": "Benjamin Noah",
+      "year": "2020",
+      "img": "src/assets/NewWoman-Assets/Laurels/TFFT_Laurel_OS_4.png"
+    },
+    {
+      "org": "Wallachia International Film Festival",
+      "type": "Nominee",
+      "award": "Best Featurette",
+      "nominee": "Benjamin Noah",
+      "year": "2019",
+      "img": ""
+    },
+    {
+      "org": "",
+      "type": "",
+      "award": "",
+      "nominee": "Benjamin Noah",
+      "year": "",
+      "img": ""
     }
   ]
 }
