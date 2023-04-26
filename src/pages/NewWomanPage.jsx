@@ -44,8 +44,8 @@ const NewWomanPage = () => {
           language="English"
           subtitles="English"
           rating="14+"
-          synopsis="A gothic romance concerning a male pickpocket and a wealthy woman
-              descending into a labyrinth of terror in 1888."
+          synopsis="A gothic romance concerning a male pickpocket and a wealthy woman descending into a labyrinth of terror in 1888."
+          reviews="https://www.imdb.com/title/tt8490836/externalreviews/?ref_=tt_ov_rt"
           font={font}
         />
         {/* ----- Awards ----- */}

@@ -25,14 +25,14 @@ function AwardSection({ movieData }) {
         ))}
         {!showAll && (
           <button
-            className="absolute -top-10 right-0 text-white py-2 px-4 rounded-lg hover:underline"
+            className="absolute -top-10 -right-[14px] text-white py-2 px-4 rounded-lg hover:underline"
             onClick={() => setShowAll(true)}>
             Show All Laurels
           </button>
         )}
         {showAll && (
           <button
-            className="absolute -top-10 right-0 text-white py-2 px-4 rounded-lg hover:underline"
+            className="absolute -top-10 -right-[14px] text-white py-2 px-4 rounded-lg hover:underline"
             onClick={() => setShowAll(false)}>
             Show Less Laurels
           </button>

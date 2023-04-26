@@ -15,22 +15,22 @@ import AwardSection from "../components/AwardSection"
 
 const SundaysPage = () => {
   return (
-    <div className="flex flex-col bg-green-900">
+    <div className="flex flex-col bg-[#355E3B]">
       {/* ----- Hero Section ----- */}
-      <Video link="https://player.vimeo.com/video/312278488?h=bc370b44e2" />
+      <Video link="https://player.vimeo.com/video/131556128?h=c48e6148fa" />
       <div className="section-container pt-1">
         {/* ----- Movie Description ----- */}
         <MovieDescription
           title="Sundays"
           director="Benjamin Noah"
           location="Newfoundland, Canada"
-          genres="Short, Adventure, Fantasy"
+          genres="Music Video, Short, Adventure, Fantasy"
           resolution="HD"
           length="7"
           language="English"
           subtitles="English"
           rating=""
-          synopsis="Sundays a short film disguised as a music video about one man's quest for knowledge and the extreme lengths he will go to find it."
+          synopsis="Sundays a short film disguised as a music video about one man's quest for knowledge and the extreme lengths he will go to find it. Music by Terra"
         />
         {/* ----- Awards ----- */}
         <AwardSection movieData={sundaysData} />

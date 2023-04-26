@@ -65,7 +65,7 @@ const Hamburger = () => {
             <a href="/the-hunt">The Hunt</a>
           </li>
           <li className="burger-list-item">
-            <a href="#">Behind the Scenes</a>
+            <a href="#">Commercials</a>
           </li>
           <li className="burger-list-item">
             <a href="#">Contact</a>
