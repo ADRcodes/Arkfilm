@@ -9,7 +9,7 @@ function AwardSection({ movieData }) {
     : movieData.awards.slice(0, 6)
 
   return (
-    <div className="w-full">
+    <div className="w-full mt-4">
       <h2 className="heading2">Awards</h2>
       <div className="relative flex gap-6 self-start flex-wrap">
         {awardsToDisplay.map((award, index) => (

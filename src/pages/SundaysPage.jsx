@@ -35,8 +35,8 @@ const SundaysPage = () => {
         {/* ----- Awards ----- */}
         <AwardSection movieData={sundaysData} />
         {/* ----- Cast & Crew ----- */}
-        <h2 className="heading2">Cast & Crew</h2>
-        <div className="grid lg:grid-cols-5 md:grid-cols-4 grid-cols-3 gap-4 py-4 self-start">
+        <h2 className="heading2 mt-8">Cast & Crew</h2>
+        <div className="flex gap-5 py-4 self-start">
           <CastCard
             image={Ben}
             name="Benjamin Noah"
@@ -61,7 +61,7 @@ const SundaysPage = () => {
           necessitatibus unde velit sint.
         </p>
         {/* ----- Stills ----- */}
-        <h2 className="heading2">Stills</h2>
+        <h2 className="heading2 mt-8">Stills</h2>
         <div className="flex flex-wrap gap-2">
           <img
             className="object-cover w-full"

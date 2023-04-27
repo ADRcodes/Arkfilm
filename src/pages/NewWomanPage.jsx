@@ -51,8 +51,8 @@ const NewWomanPage = () => {
         {/* ----- Awards ----- */}
         <AwardSection movieData={newWomanData} />
         {/* ----- Cast & Crew ----- */}
-        <h2 className="heading2">Cast & Crew</h2>
-        <div className="flex gap-5 py-4 self-start">
+        <h2 className="heading2 mt-8">Cast & Crew</h2>
+        <div className="flex gap-5 py-4  self-start">
           <CastCard
             image={Ben}
             name="Benjamin Noah"
@@ -72,7 +72,7 @@ const NewWomanPage = () => {
         {/* ----- Trailer ----- */}
         <h2 className="heading2">Trailer</h2>
         <Video link="https://player.vimeo.com/video/312278488?h=bc370b44e2" />
-        <h2 className="heading2">The Making Of New Woman</h2>
+        <h2 className="heading2 mt-8">The Making Of New Woman</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
           incidunt quo magni itaque asperiores, fuga eos earum. Voluptatibus
@@ -80,7 +80,7 @@ const NewWomanPage = () => {
           necessitatibus unde velit sint.
         </p>
         {/* ----- Stills ----- */}
-        <h2 className="heading2">Stills</h2>
+        <h2 className="heading2 mt-8">Stills</h2>
         <div className="flex flex-wrap gap-2">
           <img
             className="object-cover w-[40%]"
