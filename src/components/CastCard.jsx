@@ -8,8 +8,10 @@ const CastCard = ({ image, name, role }) => {
         src={image}
         alt=""
       />
-      <p className="pt-2 px-2">{name}</p>
-      <p className="pb-2 px-2 font-light">{role}</p>
+      <div className="py-2">
+        <p className="px-2">{name}</p>
+        <p className="px-2 font-light">{role}</p>
+      </div>
     </div>
   )
 }

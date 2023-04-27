@@ -52,7 +52,7 @@ const NewWomanPage = () => {
         <AwardSection movieData={newWomanData} />
         {/* ----- Cast & Crew ----- */}
         <h2 className="heading2">Cast & Crew</h2>
-        <div className="grid lg:grid-cols-5 md:grid-cols-4 grid-cols-3 gap-4 py-4 self-start">
+        <div className="flex gap-5 py-4 self-start">
           <CastCard
             image={Ben}
             name="Benjamin Noah"
@@ -65,7 +65,7 @@ const NewWomanPage = () => {
           />
           <CastCard
             image={Stephen}
-            name="Benjamin Noah"
+            name="Stephen Oates"
             role="*role*"
           />
         </div>
