@@ -1,10 +1,19 @@
 import React from "react"
 
-const Instagram = ({ link }) => {
+const Instagram = ({ link, size }) => {
+  let width = "20px"
+  let height = "20px"
+
+  if (size) {
+    width = size + "px"
+    height = size + "px"
+  }
+
   return (
     <a href={link}>
       <svg
-        className="socials fill-white"
+        style={{ width: width, height: height }}
+        className="fill-white"
         width="24"
         height="24"
         viewBox="0 0 24 24">

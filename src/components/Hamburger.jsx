@@ -68,7 +68,7 @@ const Hamburger = () => {
             <a href="#">Commercials</a>
           </li>
           <li className="burger-list-item">
-            <a href="#">Contact</a>
+            <a href="/contact">Contact</a>
           </li>
         </ul>
       </div>

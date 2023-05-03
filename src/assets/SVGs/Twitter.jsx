@@ -1,10 +1,18 @@
 import React from "react"
 
-const Twitter = (link) => {
+const Twitter = ({ link, size }) => {
+  let width = "20px"
+  let height = "20px"
+
+  if (size) {
+    width = size + "px"
+    height = size + "px"
+  }
   return (
     <a href={link}>
       <svg
-        className="socials ml-[3px]"
+        style={{ width: width, height: height }}
+        className="ml-[3px]"
         aria-hidden="true"
         focusable="false"
         data-prefix="fab"

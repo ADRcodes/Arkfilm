@@ -5,6 +5,7 @@ import NewWomanPage from "./pages/NewWomanPage"
 import SundaysPage from "./pages/SundaysPage"
 import TheHuntPage from "./pages/TheHunt"
 import Footer from "./components/Footer"
+import ContactPage from "./pages/ContactPage"
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
         <Route
           path="/the-hunt"
           element={<TheHuntPage />}
+        />
+        <Route
+          path="/contact"
+          element={<ContactPage />}
         />
       </Routes>
       <Footer />

@@ -1,10 +1,18 @@
 import React from "react"
 
-const Facebook = ({ link }) => {
+const Facebook = ({ link, size }) => {
+  let width = "20px"
+  let height = "20px"
+
+  if (size) {
+    width = size + "px"
+    height = size + "px"
+  }
+
   return (
     <a href={link}>
       <svg
-        className="socials"
+        style={{ width: width, height: height }}
         aria-hidden="true"
         focusable="false"
         role="img"
