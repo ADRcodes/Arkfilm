@@ -13,7 +13,7 @@ const Instagram = ({ link, size }) => {
     <a href={link}>
       <svg
         style={{ width: width, height: height }}
-        className="fill-white"
+        className="fill-current"
         width="24"
         height="24"
         viewBox="0 0 24 24">
