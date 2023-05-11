@@ -16,6 +16,7 @@ import CastCard from "../components/CastCard"
 import MovieDescription from "../components/MovieDescription"
 import Video from "../components/Video"
 import AwardSection from "../components/AwardSection"
+import Gallery from "../components/Gallery"
 
 const NewWomanPage = () => {
   const font = "nw-text"
@@ -108,6 +109,8 @@ const NewWomanPage = () => {
             alt=""
           />
         </div>
+        {/* ----- Gallery ----- */}
+        <Gallery film="NW" />
       </div>
     </div>
   )
