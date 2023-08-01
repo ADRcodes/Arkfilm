@@ -19,12 +19,6 @@ const ContactPage4 = () => {
           <br />
           Contactarkfilm@gmail.com
           <br />
-          <br />
-          1234 Main Street
-          <br />
-          Anytown, USA 12345
-          <br />
-          709-555-5555
         </p>
         <div className="flex justify-center gap-5 p-8">
           <Facebook

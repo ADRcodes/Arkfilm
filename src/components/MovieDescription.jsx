@@ -45,11 +45,11 @@ const MovieDescription = ({
         </div>
         <p className="font-light">{rating}</p>
       </div>
-      <h2 className="heading2 p-0 pb-2 self-end md:order-2 order-3 md:col-span-2 col-span-3">
+      <h2
+        className={`heading2 p-0 pb-2 self-end md:order-2 order-3 md:col-span-2 col-span-3 ${font}`}>
         Synopsis
       </h2>
-      <div
-        className={`md:col-span-2 col-span-3 md:order-4 order-3 ${font} nw-text`}>
+      <div className={`md:col-span-2 col-span-3 md:order-4 order-3 italic`}>
         <p>{synopsis}</p>
       </div>
       {reviews && (

@@ -6,10 +6,13 @@ const NWimages = [
   {
     original: "src/assets/NewWoman-Assets/BTS/ben_noah_film_dec2017-08cbw.jpg",
     thumbnail: "src/assets/NewWoman-Assets/BTS/ben_noah_film_dec2017-08cbw.jpg",
+    description: "Ben and Noah",
+    type: "promotional",
   },
   {
     original: "src/assets/NewWoman-Assets/BTS/ben_noah_film_dec2017-25cbw.jpg",
     thumbnail: "src/assets/NewWoman-Assets/BTS/ben_noah_film_dec2017-25cbw.jpg",
+    description: "Ben and Noah",
   },
   {
     original: "src/assets/NewWoman-Assets/BTS/ben_noah_film_dec2017-35cbw.jpg",
@@ -120,7 +123,7 @@ const Gallery = ({ film }) => {
   }
 
   return (
-    <div className="w-[100%]">
+    <div className="w-[100%] overflow-hidden">
       <ImageGallery
         items={images}
         renderItem={(item) => (

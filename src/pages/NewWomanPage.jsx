@@ -49,6 +49,9 @@ const NewWomanPage = () => {
           reviews="https://www.imdb.com/title/tt8490836/externalreviews/?ref_=tt_ov_rt"
           font={font}
         />
+        {/* ----- Trailer ----- */}
+        <h2 className="heading2">Trailer</h2>
+        <Video link="https://player.vimeo.com/video/312278488?h=bc370b44e2" />
         {/* ----- Awards ----- */}
         <AwardSection movieData={newWomanData} />
         {/* ----- Cast & Crew ----- */}
@@ -62,24 +65,15 @@ const NewWomanPage = () => {
           <CastCard
             image={Rhiannon}
             name="Rhiannon Morgan"
-            role="*role*"
+            role="as The Woman"
           />
           <CastCard
             image={Stephen}
             name="Stephen Oates"
-            role="*role*"
+            role="as Aurther Reid"
           />
         </div>
-        {/* ----- Trailer ----- */}
-        <h2 className="heading2">Trailer</h2>
-        <Video link="https://player.vimeo.com/video/312278488?h=bc370b44e2" />
-        <h2 className="heading2 mt-8">The Making Of New Woman</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-          incidunt quo magni itaque asperiores, fuga eos earum. Voluptatibus
-          provident cupiditate esse nisi aut quod, alias praesentium
-          necessitatibus unde velit sint.
-        </p>
+
         {/* ----- Stills ----- */}
         <h2 className="heading2 mt-8">Stills</h2>
         <div className="flex flex-wrap gap-2">
@@ -109,8 +103,18 @@ const NewWomanPage = () => {
             alt=""
           />
         </div>
+        <h2 className="heading2 mt-8">The Making Of New Woman</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+          incidunt quo magni itaque asperiores, fuga eos earum. Voluptatibus
+          provident cupiditate esse nisi aut quod, alias praesentium
+          necessitatibus unde velit sint.
+        </p>
         {/* ----- Gallery ----- */}
+
+        <h1 className="heading2 mt-[100px]">Behind the scenes</h1>
         <Gallery film="NW" />
+        <div></div>
       </div>
     </div>
   )

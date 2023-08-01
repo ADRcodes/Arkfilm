@@ -7,19 +7,9 @@ import Twitter from "../assets/SVGs/Twitter"
 
 const Nav = () => {
   return (
-    <nav className="px-4 py-1 grid grid-cols-3 bg-no-repeat bg-[url(src/assets/Arkfilm-Assets/stone-nav-bg.jpg)]">
+    <nav className="px-4 py-1 grid grid-cols-3 bg-no-repeat bg-cover bg-[url(src/assets/Arkfilm-Assets/rock-texture-bg.jpeg)]">
       <Link to="/">
         <div className="flex items-center gap-3">
-          <img
-            className="w-[45px] h-[45px] object-cover"
-            src="src/assets/logos/arkfilm_logo.jpg"
-            alt="logo"
-          />
-          <img
-            className="w-[45px] h-[45px] object-cover rounded-full"
-            src="src/assets/logos/arkfilm_logo.jpg"
-            alt="logo"
-          />
           <div
             className="relative  w-[45px] h-[45px] overflow-hidden"
             style={{ clipPath: "polygon(50% 0%, 100% 100%, 0% 100%)" }}>

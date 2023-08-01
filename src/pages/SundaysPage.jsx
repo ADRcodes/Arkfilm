@@ -15,7 +15,7 @@ import AwardSection from "../components/AwardSection"
 
 const SundaysPage = () => {
   return (
-    <div className="flex flex-col bg-[#355E3B]">
+    <div className="flex flex-col bg-[#001601]">
       {/* ----- Hero Section ----- */}
       <Video link="https://player.vimeo.com/video/131556128?h=c48e6148fa" />
       <div className="section-container pt-1">

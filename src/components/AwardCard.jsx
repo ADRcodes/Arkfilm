@@ -8,7 +8,7 @@ const AwardCard = ({ image, org, award, nominee, type, year }) => {
       <div className="text-4xl  flex justify-center py-2">
         {image && (
           <img
-            className="object-contain w-full h-[150px]"
+            className="object-contain w-full h-[150px] "
             src={image}
             alt="laurel"
           />

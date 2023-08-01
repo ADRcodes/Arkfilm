@@ -4,7 +4,7 @@ const CastCard = ({ image, name, role }) => {
   return (
     <div className="bg-gray-600">
       <img
-        className="w-[180px] h-[180px] object-cover grayscale hover:grayscale-0 transition-all"
+        className="w-[180px] h-[180px] object-contain grayscale hover:grayscale-0 transition-all"
         src={image}
         alt=""
       />
